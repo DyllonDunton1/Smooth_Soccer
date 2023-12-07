@@ -1,0 +1,155 @@
+[1.119s] Invoking command in '/home/april/mobilerobotics_ws/build/aruco_opencv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/april/mobilerobotics_ws/install/pathing:/opt/ros/foxy /usr/bin/cmake --build /home/april/mobilerobotics_ws/build/aruco_opencv_msgs -- -j2 -l2
+[1.576s] [ 10%] Built target aruco_opencv_msgs__rosidl_generator_c
+[1.666s] [ 12%] Built target aruco_opencv_msgs__cpp
+[1.921s] [ 23%] Built target aruco_opencv_msgs__rosidl_typesupport_c
+[2.018s] [ 34%] Built target aruco_opencv_msgs__rosidl_typesupport_introspection_c
+[2.067s] [ 44%] Built target aruco_opencv_msgs__rosidl_typesupport_cpp
+[2.348s] [ 55%] Built target aruco_opencv_msgs__rosidl_typesupport_introspection_cpp
+[2.361s] [ 65%] Built target aruco_opencv_msgs__rosidl_typesupport_fastrtps_cpp
+[2.602s] [ 76%] Built target aruco_opencv_msgs__rosidl_typesupport_fastrtps_c
+[2.771s] [ 76%] Built target aruco_opencv_msgs
+[2.889s] [ 78%] Built target aruco_opencv_msgs__py
+[3.106s] [ 87%] Built target aruco_opencv_msgs__python
+[3.357s] [ 91%] Built target aruco_opencv_msgs__rosidl_typesupport_c__pyext
+[3.387s] [ 95%] Built target aruco_opencv_msgs__rosidl_typesupport_introspection_c__pyext
+[3.555s] [100%] Built target aruco_opencv_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.683s] Invoked command in '/home/april/mobilerobotics_ws/build/aruco_opencv_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/april/mobilerobotics_ws/install/pathing:/opt/ros/foxy /usr/bin/cmake --build /home/april/mobilerobotics_ws/build/aruco_opencv_msgs -- -j2 -l2
+[4.666s] Invoking command in '/home/april/mobilerobotics_ws/build/aruco_opencv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/april/mobilerobotics_ws/install/pathing:/opt/ros/foxy /usr/bin/cmake --install /home/april/mobilerobotics_ws/build/aruco_opencv_msgs
+[4.748s] -- Install configuration: ""
+[4.749s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/ament_index/resource_index/rosidl_interfaces/aruco_opencv_msgs
+[4.749s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs
+[4.752s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg
+[4.753s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.753s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail
+[4.753s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/aruco_detection__struct.h
+[4.754s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/aruco_detection__functions.h
+[4.754s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/board_pose__functions.h
+[4.754s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/board_pose__functions.c
+[4.755s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/marker_pose__struct.h
+[4.756s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/marker_pose__functions.h
+[4.756s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/board_pose__type_support.h
+[4.756s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/marker_pose__type_support.h
+[4.757s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/marker_pose__functions.c
+[4.766s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/board_pose__struct.h
+[4.767s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/aruco_detection__functions.c
+[4.767s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/aruco_detection__type_support.h
+[4.768s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/aruco_detection.h
+[4.768s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/marker_pose.h
+[4.769s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/board_pose.h
+[4.769s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/library_path.sh
+[4.769s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/library_path.dsv
+[4.770s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_generator_c.so
+[4.770s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs
+[4.771s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg
+[4.771s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail
+[4.771s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/aruco_detection__rosidl_typesupport_fastrtps_c.h
+[4.783s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/board_pose__rosidl_typesupport_fastrtps_c.h
+[4.785s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/marker_pose__rosidl_typesupport_fastrtps_c.h
+[4.786s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.787s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_fastrtps_c.so
+[4.792s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs
+[4.793s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg
+[4.794s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.794s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail
+[4.794s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/board_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[4.796s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/dds_fastrtps
+[4.796s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/aruco_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[4.796s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/marker_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[4.813s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.814s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs
+[4.814s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg
+[4.815s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail
+[4.815s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/marker_pose__rosidl_typesupport_introspection_c.h
+[4.815s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/board_pose__rosidl_typesupport_introspection_c.h
+[4.816s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/aruco_detection__rosidl_typesupport_introspection_c.h
+[4.816s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/aruco_detection__type_support.c
+[4.817s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/marker_pose__type_support.c
+[4.817s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/board_pose__type_support.c
+[4.818s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.820s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_introspection_c.so
+[4.829s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_c.so
+[4.835s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs
+[4.836s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg
+[4.837s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail
+[4.837s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/board_pose__traits.hpp
+[4.837s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/board_pose__type_support.hpp
+[4.838s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/aruco_detection__builder.hpp
+[4.842s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/aruco_detection__type_support.hpp
+[4.842s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/marker_pose__traits.hpp
+[4.845s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/board_pose__builder.hpp
+[4.847s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/marker_pose__builder.hpp
+[4.848s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/marker_pose__struct.hpp
+[4.848s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/board_pose__struct.hpp
+[4.848s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/aruco_detection__traits.hpp
+[4.849s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/aruco_detection__struct.hpp
+[4.849s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/marker_pose__type_support.hpp
+[4.849s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/aruco_detection.hpp
+[4.851s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.851s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/board_pose.hpp
+[4.852s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/marker_pose.hpp
+[4.868s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs
+[4.869s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg
+[4.870s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail
+[4.870s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/aruco_detection__rosidl_typesupport_introspection_cpp.hpp
+[4.870s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/marker_pose__rosidl_typesupport_introspection_cpp.hpp
+[4.871s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/board_pose__rosidl_typesupport_introspection_cpp.hpp
+[4.871s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/aruco_detection__type_support.cpp
+[4.871s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/marker_pose__type_support.cpp
+[4.872s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/board_pose__type_support.cpp
+[4.872s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_introspection_cpp.so
+[4.878s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_cpp.so
+[4.890s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/pythonpath.sh
+[4.891s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/pythonpath.dsv
+[4.892s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/__init__.py
+[5.101s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/msg
+[5.111s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/msg/_marker_pose.py
+[5.112s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/msg/_aruco_detection.py
+[5.113s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/msg/_board_pose_s.c
+[5.118s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/msg/__init__.py
+[5.119s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/msg/_aruco_detection_s.c
+[5.120s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/msg/_board_pose.py
+[5.120s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/msg/_marker_pose_s.c
+[5.121s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[5.124s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[5.136s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[5.139s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__python.so
+[5.143s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/ArucoDetection.idl
+[5.146s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/BoardPose.idl
+[5.146s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/MarkerPose.idl
+[5.149s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/ArucoDetection.msg
+[5.149s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/BoardPose.msg
+[5.149s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/MarkerPose.msg
+[5.150s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/ament_index/resource_index/package_run_dependencies/aruco_opencv_msgs
+[5.150s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/ament_index/resource_index/parent_prefix_path/aruco_opencv_msgs
+[5.150s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/ament_prefix_path.sh
+[5.151s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/ament_prefix_path.dsv
+[5.151s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/path.sh
+[5.151s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/path.dsv
+[5.152s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/local_setup.bash
+[5.152s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/local_setup.sh
+[5.153s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/local_setup.zsh
+[5.153s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/local_setup.dsv
+[5.153s] -- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.dsv
+[5.154s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/ament_index/resource_index/packages/aruco_opencv_msgs
+[5.154s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_generator_cExport.cmake
+[5.154s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.155s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.155s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.158s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_cExport.cmake
+[5.158s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.159s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_generator_cppExport.cmake
+[5.169s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.169s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.170s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_cppExport.cmake
+[5.170s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.172s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/rosidl_cmake-extras.cmake
+[5.172s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.173s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.173s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.173s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.174s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.174s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.174s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgsConfig.cmake
+[5.175s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgsConfig-version.cmake
+[5.175s] -- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.xml
+[5.193s] Invoked command in '/home/april/mobilerobotics_ws/build/aruco_opencv_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/april/mobilerobotics_ws/install/pathing:/opt/ros/foxy /usr/bin/cmake --install /home/april/mobilerobotics_ws/build/aruco_opencv_msgs

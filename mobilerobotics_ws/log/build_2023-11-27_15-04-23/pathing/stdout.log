@@ -1,0 +1,41 @@
+running egg_info
+creating ../../build/pathing/pathing.egg-info
+writing ../../build/pathing/pathing.egg-info/PKG-INFO
+writing dependency_links to ../../build/pathing/pathing.egg-info/dependency_links.txt
+writing entry points to ../../build/pathing/pathing.egg-info/entry_points.txt
+writing requirements to ../../build/pathing/pathing.egg-info/requires.txt
+writing top-level names to ../../build/pathing/pathing.egg-info/top_level.txt
+writing manifest file '../../build/pathing/pathing.egg-info/SOURCES.txt'
+reading manifest file '../../build/pathing/pathing.egg-info/SOURCES.txt'
+writing manifest file '../../build/pathing/pathing.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/april/mobilerobotics_ws/build/pathing/build
+creating /home/april/mobilerobotics_ws/build/pathing/build/lib
+creating /home/april/mobilerobotics_ws/build/pathing/build/lib/pathing
+copying pathing/better_soccer.py -> /home/april/mobilerobotics_ws/build/pathing/build/lib/pathing
+copying pathing/__init__.py -> /home/april/mobilerobotics_ws/build/pathing/build/lib/pathing
+copying pathing/soccer.py -> /home/april/mobilerobotics_ws/build/pathing/build/lib/pathing
+copying pathing/pathing.py -> /home/april/mobilerobotics_ws/build/pathing/build/lib/pathing
+running install
+running install_lib
+creating /home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing
+copying /home/april/mobilerobotics_ws/build/pathing/build/lib/pathing/better_soccer.py -> /home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing
+copying /home/april/mobilerobotics_ws/build/pathing/build/lib/pathing/__init__.py -> /home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing
+copying /home/april/mobilerobotics_ws/build/pathing/build/lib/pathing/soccer.py -> /home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing
+copying /home/april/mobilerobotics_ws/build/pathing/build/lib/pathing/pathing.py -> /home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing
+byte-compiling /home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing/better_soccer.py to better_soccer.cpython-38.pyc
+byte-compiling /home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing/soccer.py to soccer.cpython-38.pyc
+byte-compiling /home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing/pathing.py to pathing.cpython-38.pyc
+running install_data
+creating /home/april/mobilerobotics_ws/install/pathing/share/ament_index
+creating /home/april/mobilerobotics_ws/install/pathing/share/ament_index/resource_index
+creating /home/april/mobilerobotics_ws/install/pathing/share/ament_index/resource_index/packages
+copying resource/pathing -> /home/april/mobilerobotics_ws/install/pathing/share/ament_index/resource_index/packages
+copying package.xml -> /home/april/mobilerobotics_ws/install/pathing/share/pathing
+running install_egg_info
+Copying ../../build/pathing/pathing.egg-info to /home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing-0.0.0-py3.8.egg-info
+running install_scripts
+Installing planner script to /home/april/mobilerobotics_ws/install/pathing/lib/pathing
+writing list of installed files to '/home/april/mobilerobotics_ws/build/pathing/install.log'

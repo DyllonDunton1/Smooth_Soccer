@@ -1,0 +1,853 @@
+[0.000000] (-) TimerEvent: {}
+[0.003585] (aruco_opencv_msgs) JobQueued: {'identifier': 'aruco_opencv_msgs', 'dependencies': OrderedDict()}
+[0.003759] (pathing) JobQueued: {'identifier': 'pathing', 'dependencies': OrderedDict()}
+[0.003884] (aruco_opencv) JobQueued: {'identifier': 'aruco_opencv', 'dependencies': OrderedDict([('aruco_opencv_msgs', '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs')])}
+[0.004011] (aruco_opencv_msgs) JobStarted: {'identifier': 'aruco_opencv_msgs'}
+[0.099766] (-) TimerEvent: {}
+[0.200878] (-) TimerEvent: {}
+[0.311548] (-) TimerEvent: {}
+[0.332482] (pathing) JobStarted: {'identifier': 'pathing'}
+[0.412003] (-) TimerEvent: {}
+[0.515153] (-) TimerEvent: {}
+[0.619608] (-) TimerEvent: {}
+[0.734509] (aruco_opencv_msgs) JobProgress: {'identifier': 'aruco_opencv_msgs', 'progress': 'cmake'}
+[0.735419] (-) TimerEvent: {}
+[0.737050] (aruco_opencv_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/april/mobilerobotics_ws/src/ros_aruco_opencv/aruco_opencv_msgs', '-DCMAKE_INSTALL_PREFIX=/home/april/mobilerobotics_ws/install/aruco_opencv_msgs'], 'cwd': '/home/april/mobilerobotics_ws/build/aruco_opencv_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'april'), ('SSH_AGENT_PID', '1643'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/april'), ('OLDPWD', '/home/april/mobilerobotics_ws/src/ros_aruco_opencv/aruco_opencv_msgs'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1455'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'april'), ('JOURNAL_STREAM', '8:50635'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'april'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/april/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1678,unix/ubuntu:/tmp/.ICE-unix/1678'), ('INVOCATION_ID', '4e3143ecea924786a233a5377f8af429'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/013c7732_e43f_4a4b_ad26_3c0307417117'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/april/mobilerobotics_ws/build/aruco_opencv_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.836640] (-) TimerEvent: {}
+[0.940455] (-) TimerEvent: {}
+[1.042430] (-) TimerEvent: {}
+[1.143720] (-) TimerEvent: {}
+[1.245689] (-) TimerEvent: {}
+[1.347261] (-) TimerEvent: {}
+[1.448084] (-) TimerEvent: {}
+[1.549745] (-) TimerEvent: {}
+[1.651360] (-) TimerEvent: {}
+[1.752800] (-) TimerEvent: {}
+[1.856119] (-) TimerEvent: {}
+[1.960515] (-) TimerEvent: {}
+[2.062435] (-) TimerEvent: {}
+[2.165325] (-) TimerEvent: {}
+[2.246851] (aruco_opencv_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[2.247936] (aruco_opencv_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[2.248296] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.248675] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.248998] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.266861] (-) TimerEvent: {}
+[2.369932] (-) TimerEvent: {}
+[2.470651] (-) TimerEvent: {}
+[2.571333] (-) TimerEvent: {}
+[2.641959] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.671908] (-) TimerEvent: {}
+[2.700125] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.703644] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.715154] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.773863] (-) TimerEvent: {}
+[2.877724] (-) TimerEvent: {}
+[2.978485] (-) TimerEvent: {}
+[3.079127] (-) TimerEvent: {}
+[3.179611] (-) TimerEvent: {}
+[3.280473] (-) TimerEvent: {}
+[3.319286] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[3.320134] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.380756] (-) TimerEvent: {}
+[3.482208] (-) TimerEvent: {}
+[3.583374] (-) TimerEvent: {}
+[3.689813] (-) TimerEvent: {}
+[3.790667] (-) TimerEvent: {}
+[3.808835] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.841202] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.847330] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.872753] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[3.890936] (-) TimerEvent: {}
+[3.979215] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[3.980045] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.993336] (-) TimerEvent: {}
+[4.007987] (pathing) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/pathing', 'build', '--build-base', '/home/april/mobilerobotics_ws/build/pathing/build', 'install', '--record', '/home/april/mobilerobotics_ws/build/pathing/install.log', '--single-version-externally-managed'], 'cwd': '/home/april/mobilerobotics_ws/src/pathing', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'april', 'SSH_AGENT_PID': '1643', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/april', 'OLDPWD': '/home/april/mobilerobotics_ws/src/ros_aruco_opencv/aruco_opencv_msgs', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1455', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'april', 'JOURNAL_STREAM': '8:50635', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'april', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/april/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1678,unix/ubuntu:/tmp/.ICE-unix/1678', 'INVOCATION_ID': '4e3143ecea924786a233a5377f8af429', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/013c7732_e43f_4a4b_ad26_3c0307417117', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.84', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/april/mobilerobotics_ws/build/pathing', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/april/mobilerobotics_ws/build/pathing/prefix_override:/home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[4.094441] (-) TimerEvent: {}
+[4.203585] (-) TimerEvent: {}
+[4.304802] (-) TimerEvent: {}
+[4.413479] (-) TimerEvent: {}
+[4.514049] (-) TimerEvent: {}
+[4.614843] (-) TimerEvent: {}
+[4.715727] (-) TimerEvent: {}
+[4.816460] (-) TimerEvent: {}
+[4.857261] (pathing) StdoutLine: {'line': b'running egg_info\n'}
+[4.857986] (pathing) StdoutLine: {'line': b'creating ../../build/pathing/pathing.egg-info\n'}
+[4.858128] (pathing) StdoutLine: {'line': b'writing ../../build/pathing/pathing.egg-info/PKG-INFO\n'}
+[4.858247] (pathing) StdoutLine: {'line': b'writing dependency_links to ../../build/pathing/pathing.egg-info/dependency_links.txt\n'}
+[4.858367] (pathing) StdoutLine: {'line': b'writing entry points to ../../build/pathing/pathing.egg-info/entry_points.txt\n'}
+[4.858485] (pathing) StdoutLine: {'line': b'writing requirements to ../../build/pathing/pathing.egg-info/requires.txt\n'}
+[4.858600] (pathing) StdoutLine: {'line': b'writing top-level names to ../../build/pathing/pathing.egg-info/top_level.txt\n'}
+[4.860351] (pathing) StdoutLine: {'line': b"writing manifest file '../../build/pathing/pathing.egg-info/SOURCES.txt'\n"}
+[4.916745] (-) TimerEvent: {}
+[4.982908] (pathing) StdoutLine: {'line': b"reading manifest file '../../build/pathing/pathing.egg-info/SOURCES.txt'\n"}
+[4.986656] (pathing) StdoutLine: {'line': b"writing manifest file '../../build/pathing/pathing.egg-info/SOURCES.txt'\n"}
+[4.988527] (pathing) StdoutLine: {'line': b'running build\n'}
+[4.989029] (pathing) StdoutLine: {'line': b'running build_py\n'}
+[4.991742] (pathing) StdoutLine: {'line': b'creating /home/april/mobilerobotics_ws/build/pathing/build\n'}
+[4.992539] (pathing) StdoutLine: {'line': b'creating /home/april/mobilerobotics_ws/build/pathing/build/lib\n'}
+[4.993251] (pathing) StdoutLine: {'line': b'creating /home/april/mobilerobotics_ws/build/pathing/build/lib/pathing\n'}
+[4.994728] (pathing) StdoutLine: {'line': b'copying pathing/better_soccer.py -> /home/april/mobilerobotics_ws/build/pathing/build/lib/pathing\n'}
+[4.999303] (pathing) StdoutLine: {'line': b'copying pathing/__init__.py -> /home/april/mobilerobotics_ws/build/pathing/build/lib/pathing\n'}
+[5.001119] (pathing) StdoutLine: {'line': b'copying pathing/soccer.py -> /home/april/mobilerobotics_ws/build/pathing/build/lib/pathing\n'}
+[5.002554] (pathing) StdoutLine: {'line': b'copying pathing/pathing.py -> /home/april/mobilerobotics_ws/build/pathing/build/lib/pathing\n'}
+[5.003094] (pathing) StdoutLine: {'line': b'running install\n'}
+[5.004593] (pathing) StdoutLine: {'line': b'running install_lib\n'}
+[5.006033] (pathing) StdoutLine: {'line': b'creating /home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing\n'}
+[5.006367] (pathing) StdoutLine: {'line': b'copying /home/april/mobilerobotics_ws/build/pathing/build/lib/pathing/better_soccer.py -> /home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing\n'}
+[5.006833] (pathing) StdoutLine: {'line': b'copying /home/april/mobilerobotics_ws/build/pathing/build/lib/pathing/__init__.py -> /home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing\n'}
+[5.007407] (pathing) StdoutLine: {'line': b'copying /home/april/mobilerobotics_ws/build/pathing/build/lib/pathing/soccer.py -> /home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing\n'}
+[5.007981] (pathing) StdoutLine: {'line': b'copying /home/april/mobilerobotics_ws/build/pathing/build/lib/pathing/pathing.py -> /home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing\n'}
+[5.010228] (pathing) StdoutLine: {'line': b'byte-compiling /home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing/better_soccer.py to better_soccer.cpython-38.pyc\n'}
+[5.014897] (pathing) StderrLine: {'line': b'  File "/home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing/better_soccer.py", line 75\n'}
+[5.016437] (pathing) StderrLine: {'line': b'    self.max_x = max(root.x, [o.x for o in self.obs]*, ball.x, goal.x)\n'}
+[5.017194] (-) TimerEvent: {}
+[5.023317] (pathing) StderrLine: {'line': b'                                                     ^\n'}
+[5.024122] (pathing) StderrLine: {'line': b'SyntaxError: invalid syntax\n'}
+[5.024894] (pathing) StderrLine: {'line': b'\n'}
+[5.035727] (pathing) StdoutLine: {'line': b'byte-compiling /home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing/__init__.py to __init__.cpython-38.pyc\n'}
+[5.036246] (pathing) StdoutLine: {'line': b'byte-compiling /home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing/soccer.py to soccer.cpython-38.pyc\n'}
+[5.036692] (pathing) StdoutLine: {'line': b'byte-compiling /home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing/pathing.py to pathing.cpython-38.pyc\n'}
+[5.038238] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[5.062961] (pathing) StdoutLine: {'line': b'running install_data\n'}
+[5.063491] (pathing) StdoutLine: {'line': b'creating /home/april/mobilerobotics_ws/install/pathing/share/ament_index\n'}
+[5.063828] (pathing) StdoutLine: {'line': b'creating /home/april/mobilerobotics_ws/install/pathing/share/ament_index/resource_index\n'}
+[5.075228] (pathing) StdoutLine: {'line': b'creating /home/april/mobilerobotics_ws/install/pathing/share/ament_index/resource_index/packages\n'}
+[5.082802] (pathing) StdoutLine: {'line': b'copying resource/pathing -> /home/april/mobilerobotics_ws/install/pathing/share/ament_index/resource_index/packages\n'}
+[5.083673] (pathing) StdoutLine: {'line': b'copying package.xml -> /home/april/mobilerobotics_ws/install/pathing/share/pathing\n'}
+[5.084461] (pathing) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.099793] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.112916] (pathing) StdoutLine: {'line': b'Copying ../../build/pathing/pathing.egg-info to /home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing-0.0.0-py3.8.egg-info\n'}
+[5.117957] (-) TimerEvent: {}
+[5.119220] (pathing) StdoutLine: {'line': b'running install_scripts\n'}
+[5.134288] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[5.218534] (-) TimerEvent: {}
+[5.245931] (pathing) StdoutLine: {'line': b'Installing planner script to /home/april/mobilerobotics_ws/install/pathing/lib/pathing\n'}
+[5.248028] (pathing) StdoutLine: {'line': b"writing list of installed files to '/home/april/mobilerobotics_ws/build/pathing/install.log'\n"}
+[5.319477] (-) TimerEvent: {}
+[5.330342] (pathing) CommandEnded: {'returncode': 0}
+[5.420624] (-) TimerEvent: {}
+[5.524261] (-) TimerEvent: {}
+[5.625221] (-) TimerEvent: {}
+[5.734284] (-) TimerEvent: {}
+[5.781491] (pathing) JobEnded: {'identifier': 'pathing', 'rc': 0}
+[5.834876] (-) TimerEvent: {}
+[5.936230] (-) TimerEvent: {}
+[5.962426] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[6.036591] (-) TimerEvent: {}
+[6.092502] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[6.136898] (-) TimerEvent: {}
+[6.240492] (-) TimerEvent: {}
+[6.341275] (-) TimerEvent: {}
+[6.413932] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.441707] (-) TimerEvent: {}
+[6.536263] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[6.541980] (-) TimerEvent: {}
+[6.642739] (-) TimerEvent: {}
+[6.648776] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[6.743066] (-) TimerEvent: {}
+[6.843834] (-) TimerEvent: {}
+[6.865175] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[6.946331] (-) TimerEvent: {}
+[7.047243] (-) TimerEvent: {}
+[7.148286] (-) TimerEvent: {}
+[7.249919] (-) TimerEvent: {}
+[7.350595] (-) TimerEvent: {}
+[7.457208] (-) TimerEvent: {}
+[7.558117] (-) TimerEvent: {}
+[7.630369] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[7.658468] (-) TimerEvent: {}
+[7.759947] (-) TimerEvent: {}
+[7.860780] (-) TimerEvent: {}
+[7.961758] (-) TimerEvent: {}
+[8.062673] (-) TimerEvent: {}
+[8.163631] (-) TimerEvent: {}
+[8.264747] (-) TimerEvent: {}
+[8.366739] (-) TimerEvent: {}
+[8.470041] (-) TimerEvent: {}
+[8.572269] (-) TimerEvent: {}
+[8.673388] (-) TimerEvent: {}
+[8.708439] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.773729] (-) TimerEvent: {}
+[8.874981] (-) TimerEvent: {}
+[8.976135] (-) TimerEvent: {}
+[9.077993] (-) TimerEvent: {}
+[9.150075] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.178551] (-) TimerEvent: {}
+[9.274859] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[9.278950] (-) TimerEvent: {}
+[9.280443] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[9.379305] (-) TimerEvent: {}
+[9.413218] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[9.413919] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.414266] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[9.414599] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[9.479662] (-) TimerEvent: {}
+[9.526539] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[9.580145] (-) TimerEvent: {}
+[9.681099] (-) TimerEvent: {}
+[9.782042] (-) TimerEvent: {}
+[9.883911] (-) TimerEvent: {}
+[9.935708] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[9.962841] (aruco_opencv_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.984105] (-) TimerEvent: {}
+[9.999556] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.084477] (-) TimerEvent: {}
+[10.198673] (-) TimerEvent: {}
+[10.299728] (-) TimerEvent: {}
+[10.400888] (-) TimerEvent: {}
+[10.504597] (-) TimerEvent: {}
+[10.593275] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[10.597224] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/april/mobilerobotics_ws/build/aruco_opencv_msgs\n'}
+[10.605202] (-) TimerEvent: {}
+[10.615069] (aruco_opencv_msgs) CommandEnded: {'returncode': 0}
+[10.617227] (aruco_opencv_msgs) JobProgress: {'identifier': 'aruco_opencv_msgs', 'progress': 'build'}
+[10.625405] (aruco_opencv_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/april/mobilerobotics_ws/build/aruco_opencv_msgs', '--', '-j2', '-l2'], 'cwd': '/home/april/mobilerobotics_ws/build/aruco_opencv_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'april'), ('SSH_AGENT_PID', '1643'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/april'), ('OLDPWD', '/home/april/mobilerobotics_ws/src/ros_aruco_opencv/aruco_opencv_msgs'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1455'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'april'), ('JOURNAL_STREAM', '8:50635'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'april'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/april/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1678,unix/ubuntu:/tmp/.ICE-unix/1678'), ('INVOCATION_ID', '4e3143ecea924786a233a5377f8af429'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/013c7732_e43f_4a4b_ad26_3c0307417117'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/april/mobilerobotics_ws/build/aruco_opencv_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[10.709275] (-) TimerEvent: {}
+[10.811130] (-) TimerEvent: {}
+[10.912092] (-) TimerEvent: {}
+[10.930679] (aruco_opencv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target aruco_opencv_msgs__cpp\x1b[0m\n'}
+[10.950068] (aruco_opencv_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[11.012468] (-) TimerEvent: {}
+[11.021348] (aruco_opencv_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[11.112609] (-) TimerEvent: {}
+[11.213124] (-) TimerEvent: {}
+[11.314440] (-) TimerEvent: {}
+[11.416053] (-) TimerEvent: {}
+[11.517056] (-) TimerEvent: {}
+[11.618031] (-) TimerEvent: {}
+[11.718885] (-) TimerEvent: {}
+[11.820789] (-) TimerEvent: {}
+[11.922779] (-) TimerEvent: {}
+[12.024421] (-) TimerEvent: {}
+[12.125254] (-) TimerEvent: {}
+[12.225951] (-) TimerEvent: {}
+[12.326806] (-) TimerEvent: {}
+[12.359593] (aruco_opencv_msgs) StdoutLine: {'line': b'[  4%] Built target aruco_opencv_msgs__cpp\n'}
+[12.427146] (-) TimerEvent: {}
+[12.488541] (aruco_opencv_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[12.499746] (aruco_opencv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target aruco_opencv_msgs__rosidl_generator_c\x1b[0m\n'}
+[12.527385] (-) TimerEvent: {}
+[12.617644] (aruco_opencv_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_opencv_msgs/msg/detail/aruco_detection__functions.c.o\x1b[0m\n'}
+[12.627721] (-) TimerEvent: {}
+[12.728707] (-) TimerEvent: {}
+[12.829729] (-) TimerEvent: {}
+[12.930444] (-) TimerEvent: {}
+[12.935008] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_opencv_msgs/msg/detail/board_pose__functions.c.o\x1b[0m\n'}
+[13.030746] (-) TimerEvent: {}
+[13.131536] (-) TimerEvent: {}
+[13.232598] (-) TimerEvent: {}
+[13.234345] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_opencv_msgs/msg/detail/marker_pose__functions.c.o\x1b[0m\n'}
+[13.332843] (-) TimerEvent: {}
+[13.433760] (-) TimerEvent: {}
+[13.504830] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libaruco_opencv_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[13.534145] (-) TimerEvent: {}
+[13.599538] (aruco_opencv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target aruco_opencv_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[13.636578] (-) TimerEvent: {}
+[13.727753] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_opencv_msgs/msg/detail/aruco_detection__type_support.cpp.o\x1b[0m\n'}
+[13.737067] (-) TimerEvent: {}
+[13.765933] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 17%] Built target aruco_opencv_msgs__rosidl_generator_c\n'}
+[13.821134] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[13.837334] (-) TimerEvent: {}
+[13.938205] (-) TimerEvent: {}
+[14.039053] (-) TimerEvent: {}
+[14.142552] (-) TimerEvent: {}
+[14.243331] (-) TimerEvent: {}
+[14.344080] (-) TimerEvent: {}
+[14.444805] (-) TimerEvent: {}
+[14.546077] (-) TimerEvent: {}
+[14.648385] (-) TimerEvent: {}
+[14.749406] (-) TimerEvent: {}
+[14.806991] (aruco_opencv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target aruco_opencv_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[14.849568] (-) TimerEvent: {}
+[14.950606] (-) TimerEvent: {}
+[14.957251] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_opencv_msgs/msg/detail/dds_fastrtps/aruco_detection__type_support.cpp.o\x1b[0m\n'}
+[15.052562] (-) TimerEvent: {}
+[15.112344] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_opencv_msgs/msg/detail/board_pose__type_support.cpp.o\x1b[0m\n'}
+[15.152731] (-) TimerEvent: {}
+[15.254459] (-) TimerEvent: {}
+[15.354889] (-) TimerEvent: {}
+[15.455381] (-) TimerEvent: {}
+[15.557463] (-) TimerEvent: {}
+[15.658325] (-) TimerEvent: {}
+[15.759099] (-) TimerEvent: {}
+[15.860174] (-) TimerEvent: {}
+[15.961431] (-) TimerEvent: {}
+[16.062345] (-) TimerEvent: {}
+[16.163181] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_opencv_msgs/msg/detail/marker_pose__type_support.cpp.o\x1b[0m\n'}
+[16.163686] (-) TimerEvent: {}
+[16.264591] (-) TimerEvent: {}
+[16.366121] (-) TimerEvent: {}
+[16.467174] (-) TimerEvent: {}
+[16.527419] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_opencv_msgs/msg/detail/dds_fastrtps/board_pose__type_support.cpp.o\x1b[0m\n'}
+[16.567717] (-) TimerEvent: {}
+[16.668952] (-) TimerEvent: {}
+[16.776926] (-) TimerEvent: {}
+[16.877755] (-) TimerEvent: {}
+[16.978667] (-) TimerEvent: {}
+[17.079567] (-) TimerEvent: {}
+[17.180742] (-) TimerEvent: {}
+[17.282650] (-) TimerEvent: {}
+[17.352386] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_opencv_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[17.382928] (-) TimerEvent: {}
+[17.484069] (-) TimerEvent: {}
+[17.590700] (-) TimerEvent: {}
+[17.691697] (-) TimerEvent: {}
+[17.792792] (-) TimerEvent: {}
+[17.897378] (-) TimerEvent: {}
+[18.003182] (-) TimerEvent: {}
+[18.022287] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 29%] Built target aruco_opencv_msgs__rosidl_typesupport_introspection_cpp\n'}
+[18.089032] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[18.103371] (-) TimerEvent: {}
+[18.209206] (-) TimerEvent: {}
+[18.275102] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_opencv_msgs/msg/detail/dds_fastrtps/marker_pose__type_support.cpp.o\x1b[0m\n'}
+[18.309597] (-) TimerEvent: {}
+[18.410449] (-) TimerEvent: {}
+[18.511384] (-) TimerEvent: {}
+[18.612242] (-) TimerEvent: {}
+[18.713011] (-) TimerEvent: {}
+[18.814046] (-) TimerEvent: {}
+[18.826751] (aruco_opencv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target aruco_opencv_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[18.914291] (-) TimerEvent: {}
+[18.940670] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_opencv_msgs/msg/aruco_detection__type_support.cpp.o\x1b[0m\n'}
+[19.014995] (-) TimerEvent: {}
+[19.116072] (-) TimerEvent: {}
+[19.184726] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_opencv_msgs/msg/board_pose__type_support.cpp.o\x1b[0m\n'}
+[19.216293] (-) TimerEvent: {}
+[19.315704] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_opencv_msgs/msg/marker_pose__type_support.cpp.o\x1b[0m\n'}
+[19.316423] (-) TimerEvent: {}
+[19.417210] (-) TimerEvent: {}
+[19.498389] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_opencv_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[19.517621] (-) TimerEvent: {}
+[19.626106] (-) TimerEvent: {}
+[19.729698] (-) TimerEvent: {}
+[19.807605] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 42%] Built target aruco_opencv_msgs__rosidl_typesupport_c\n'}
+[19.832231] (-) TimerEvent: {}
+[19.874877] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_opencv_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[19.915458] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[19.932525] (-) TimerEvent: {}
+[20.034268] (-) TimerEvent: {}
+[20.141861] (-) TimerEvent: {}
+[20.243590] (-) TimerEvent: {}
+[20.306403] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 46%] Built target aruco_opencv_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[20.343957] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[20.344445] (-) TimerEvent: {}
+[20.446149] (-) TimerEvent: {}
+[20.547787] (-) TimerEvent: {}
+[20.649317] (-) TimerEvent: {}
+[20.751039] (-) TimerEvent: {}
+[20.852893] (-) TimerEvent: {}
+[20.911537] (aruco_opencv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target aruco_opencv_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[20.953208] (-) TimerEvent: {}
+[21.026735] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_opencv_msgs/msg/detail/aruco_detection__type_support.c.o\x1b[0m\n'}
+[21.051736] (aruco_opencv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target aruco_opencv_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[21.053455] (-) TimerEvent: {}
+[21.122001] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_opencv_msgs/msg/aruco_detection__type_support.cpp.o\x1b[0m\n'}
+[21.154157] (-) TimerEvent: {}
+[21.258449] (-) TimerEvent: {}
+[21.309001] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_opencv_msgs/msg/detail/board_pose__type_support.c.o\x1b[0m\n'}
+[21.358776] (-) TimerEvent: {}
+[21.460410] (-) TimerEvent: {}
+[21.514272] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_opencv_msgs/msg/detail/marker_pose__type_support.c.o\x1b[0m\n'}
+[21.560684] (-) TimerEvent: {}
+[21.662513] (-) TimerEvent: {}
+[21.718183] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking C shared library libaruco_opencv_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[21.762788] (-) TimerEvent: {}
+[21.864287] (-) TimerEvent: {}
+[21.965271] (-) TimerEvent: {}
+[21.981081] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 59%] Built target aruco_opencv_msgs__rosidl_typesupport_introspection_c\n'}
+[22.036926] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_opencv_msgs/msg/board_pose__type_support.cpp.o\x1b[0m\n'}
+[22.065704] (-) TimerEvent: {}
+[22.167435] (-) TimerEvent: {}
+[22.200251] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_opencv_msgs/msg/marker_pose__type_support.cpp.o\x1b[0m\n'}
+[22.267726] (-) TimerEvent: {}
+[22.374488] (-) TimerEvent: {}
+[22.476116] (-) TimerEvent: {}
+[22.577794] (-) TimerEvent: {}
+[22.679430] (-) TimerEvent: {}
+[22.783521] (-) TimerEvent: {}
+[22.887564] (-) TimerEvent: {}
+[22.989203] (-) TimerEvent: {}
+[23.061063] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_opencv_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[23.066054] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 68%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[23.091084] (-) TimerEvent: {}
+[23.192684] (-) TimerEvent: {}
+[23.294683] (-) TimerEvent: {}
+[23.334773] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 68%] Built target aruco_opencv_msgs__rosidl_typesupport_cpp\n'}
+[23.395009] (-) TimerEvent: {}
+[23.496729] (-) TimerEvent: {}
+[23.598623] (-) TimerEvent: {}
+[23.699529] (-) TimerEvent: {}
+[23.800906] (aruco_opencv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target aruco_opencv_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[23.801117] (-) TimerEvent: {}
+[23.903187] (-) TimerEvent: {}
+[23.910428] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_opencv_msgs/msg/detail/aruco_detection__type_support_c.cpp.o\x1b[0m\n'}
+[23.917855] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_opencv_msgs/msg/detail/board_pose__type_support_c.cpp.o\x1b[0m\n'}
+[24.003927] (-) TimerEvent: {}
+[24.108252] (-) TimerEvent: {}
+[24.209989] (-) TimerEvent: {}
+[24.311592] (-) TimerEvent: {}
+[24.413146] (-) TimerEvent: {}
+[24.514258] (-) TimerEvent: {}
+[24.618205] (-) TimerEvent: {}
+[24.725400] (-) TimerEvent: {}
+[24.827476] (-) TimerEvent: {}
+[24.931404] (-) TimerEvent: {}
+[25.027070] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_opencv_msgs/msg/detail/marker_pose__type_support_c.cpp.o\x1b[0m\n'}
+[25.031671] (-) TimerEvent: {}
+[25.132405] (-) TimerEvent: {}
+[25.233202] (-) TimerEvent: {}
+[25.334036] (-) TimerEvent: {}
+[25.434621] (-) TimerEvent: {}
+[25.540892] (-) TimerEvent: {}
+[25.641576] (-) TimerEvent: {}
+[25.742191] (-) TimerEvent: {}
+[25.843006] (-) TimerEvent: {}
+[25.943652] (-) TimerEvent: {}
+[26.026725] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_opencv_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[26.044047] (-) TimerEvent: {}
+[26.144782] (-) TimerEvent: {}
+[26.246127] (-) TimerEvent: {}
+[26.347687] (-) TimerEvent: {}
+[26.448983] (-) TimerEvent: {}
+[26.549939] (-) TimerEvent: {}
+[26.604845] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 76%] Built target aruco_opencv_msgs__rosidl_typesupport_fastrtps_c\n'}
+[26.650820] (-) TimerEvent: {}
+[26.654211] (aruco_opencv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target aruco_opencv_msgs\x1b[0m\n'}
+[26.708501] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 76%] Built target aruco_opencv_msgs\n'}
+[26.751823] (-) TimerEvent: {}
+[26.779044] (aruco_opencv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target aruco_opencv_msgs__py\x1b[0m\n'}
+[26.848853] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[26.852521] (-) TimerEvent: {}
+[26.954084] (-) TimerEvent: {}
+[27.055759] (-) TimerEvent: {}
+[27.156677] (-) TimerEvent: {}
+[27.257768] (-) TimerEvent: {}
+[27.358741] (-) TimerEvent: {}
+[27.459588] (-) TimerEvent: {}
+[27.560498] (-) TimerEvent: {}
+[27.661385] (-) TimerEvent: {}
+[27.762193] (-) TimerEvent: {}
+[27.863656] (-) TimerEvent: {}
+[27.964403] (-) TimerEvent: {}
+[28.065329] (-) TimerEvent: {}
+[28.166330] (-) TimerEvent: {}
+[28.233716] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 78%] Built target aruco_opencv_msgs__py\n'}
+[28.266605] (-) TimerEvent: {}
+[28.292811] (aruco_opencv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target aruco_opencv_msgs__python\x1b[0m\n'}
+[28.367240] (-) TimerEvent: {}
+[28.449862] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/aruco_opencv_msgs__python.dir/rosidl_generator_py/aruco_opencv_msgs/msg/_aruco_detection_s.c.o\x1b[0m\n'}
+[28.467439] (-) TimerEvent: {}
+[28.480120] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/aruco_opencv_msgs__python.dir/rosidl_generator_py/aruco_opencv_msgs/msg/_board_pose_s.c.o\x1b[0m\n'}
+[28.568048] (-) TimerEvent: {}
+[28.670822] (-) TimerEvent: {}
+[28.772474] (-) TimerEvent: {}
+[28.873302] (-) TimerEvent: {}
+[28.874391] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/aruco_opencv_msgs__python.dir/rosidl_generator_py/aruco_opencv_msgs/msg/_marker_pose_s.c.o\x1b[0m\n'}
+[28.973908] (-) TimerEvent: {}
+[29.074807] (-) TimerEvent: {}
+[29.175756] (-) TimerEvent: {}
+[29.250621] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/aruco_opencv_msgs/libaruco_opencv_msgs__python.so\x1b[0m\n'}
+[29.276481] (-) TimerEvent: {}
+[29.377789] (-) TimerEvent: {}
+[29.479142] (-) TimerEvent: {}
+[29.580456] (-) TimerEvent: {}
+[29.631220] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 87%] Built target aruco_opencv_msgs__python\n'}
+[29.674787] (aruco_opencv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target aruco_opencv_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[29.680750] (-) TimerEvent: {}
+[29.696181] (aruco_opencv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target aruco_opencv_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[29.781050] (-) TimerEvent: {}
+[29.803889] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/aruco_opencv_msgs/_aruco_opencv_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[29.818658] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aruco_opencv_msgs/_aruco_opencv_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[29.884463] (-) TimerEvent: {}
+[29.986018] (-) TimerEvent: {}
+[30.087687] (-) TimerEvent: {}
+[30.191241] (-) TimerEvent: {}
+[30.224107] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[30.275706] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[30.291717] (-) TimerEvent: {}
+[30.392596] (-) TimerEvent: {}
+[30.449784] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 95%] Built target aruco_opencv_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[30.492830] (-) TimerEvent: {}
+[30.495206] (aruco_opencv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target aruco_opencv_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[30.531617] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 95%] Built target aruco_opencv_msgs__rosidl_typesupport_c__pyext\n'}
+[30.593049] (-) TimerEvent: {}
+[30.611235] (aruco_opencv_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/aruco_opencv_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/aruco_opencv_msgs/_aruco_opencv_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[30.694065] (-) TimerEvent: {}
+[30.795606] (-) TimerEvent: {}
+[30.896207] (-) TimerEvent: {}
+[30.997179] (-) TimerEvent: {}
+[31.053401] (aruco_opencv_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[31.098257] (-) TimerEvent: {}
+[31.200535] (-) TimerEvent: {}
+[31.301641] (-) TimerEvent: {}
+[31.411490] (-) TimerEvent: {}
+[31.512664] (-) TimerEvent: {}
+[31.609388] (aruco_opencv_msgs) StdoutLine: {'line': b'[100%] Built target aruco_opencv_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[31.612958] (-) TimerEvent: {}
+[31.687262] (aruco_opencv_msgs) CommandEnded: {'returncode': 0}
+[31.714306] (-) TimerEvent: {}
+[31.816102] (-) TimerEvent: {}
+[31.917028] (-) TimerEvent: {}
+[32.018245] (-) TimerEvent: {}
+[32.119468] (-) TimerEvent: {}
+[32.229642] (-) TimerEvent: {}
+[32.330686] (-) TimerEvent: {}
+[32.431591] (-) TimerEvent: {}
+[32.446450] (aruco_opencv_msgs) JobProgress: {'identifier': 'aruco_opencv_msgs', 'progress': 'install'}
+[32.502491] (aruco_opencv_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/april/mobilerobotics_ws/build/aruco_opencv_msgs'], 'cwd': '/home/april/mobilerobotics_ws/build/aruco_opencv_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'april'), ('SSH_AGENT_PID', '1643'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/april'), ('OLDPWD', '/home/april/mobilerobotics_ws/src/ros_aruco_opencv/aruco_opencv_msgs'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1455'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'april'), ('JOURNAL_STREAM', '8:50635'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'april'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/april/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1678,unix/ubuntu:/tmp/.ICE-unix/1678'), ('INVOCATION_ID', '4e3143ecea924786a233a5377f8af429'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/013c7732_e43f_4a4b_ad26_3c0307417117'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/april/mobilerobotics_ws/build/aruco_opencv_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[32.532049] (-) TimerEvent: {}
+[32.593934] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[32.598114] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/ament_index/resource_index/rosidl_interfaces/aruco_opencv_msgs\n'}
+[32.600876] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs\n'}
+[32.605800] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg\n'}
+[32.606038] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[32.606149] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail\n'}
+[32.606314] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/aruco_detection__struct.h\n'}
+[32.606425] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/aruco_detection__functions.h\n'}
+[32.606594] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/board_pose__functions.h\n'}
+[32.606742] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/board_pose__functions.c\n'}
+[32.606853] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/marker_pose__struct.h\n'}
+[32.607014] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/marker_pose__functions.h\n'}
+[32.607112] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/board_pose__type_support.h\n'}
+[32.607289] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/marker_pose__type_support.h\n'}
+[32.608672] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/marker_pose__functions.c\n'}
+[32.609453] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/board_pose__struct.h\n'}
+[32.610026] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/aruco_detection__functions.c\n'}
+[32.610350] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/aruco_detection__type_support.h\n'}
+[32.610667] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/aruco_detection.h\n'}
+[32.611008] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/marker_pose.h\n'}
+[32.611341] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/board_pose.h\n'}
+[32.611657] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/library_path.sh\n'}
+[32.612032] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/library_path.dsv\n'}
+[32.612943] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_generator_c.so\n'}
+[32.622637] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_generator_c.so" to ""\n'}
+[32.627275] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs\n'}
+[32.628817] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg\n'}
+[32.630075] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail\n'}
+[32.630887] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/aruco_detection__rosidl_typesupport_fastrtps_c.h\n'}
+[32.632628] (-) TimerEvent: {}
+[32.636519] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/board_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[32.636647] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/marker_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[32.636807] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[32.637046] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[32.637218] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[32.637317] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs\n'}
+[32.637591] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg\n'}
+[32.637718] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[32.637819] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail\n'}
+[32.637916] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/board_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[32.638020] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/dds_fastrtps\n'}
+[32.638118] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/aruco_detection__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[32.638215] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/marker_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[32.638313] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[32.642077] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[32.643279] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs\n'}
+[32.643619] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg\n'}
+[32.644369] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail\n'}
+[32.645109] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/marker_pose__rosidl_typesupport_introspection_c.h\n'}
+[32.646010] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/board_pose__rosidl_typesupport_introspection_c.h\n'}
+[32.646547] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/aruco_detection__rosidl_typesupport_introspection_c.h\n'}
+[32.646870] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/aruco_detection__type_support.c\n'}
+[32.647188] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/marker_pose__type_support.c\n'}
+[32.648504] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/board_pose__type_support.c\n'}
+[32.649350] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[32.650714] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_introspection_c.so\n'}
+[32.672100] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[32.673018] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_c.so\n'}
+[32.691686] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_c.so" to ""\n'}
+[32.692492] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs\n'}
+[32.693073] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg\n'}
+[32.693394] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail\n'}
+[32.694047] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/board_pose__traits.hpp\n'}
+[32.694431] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/board_pose__type_support.hpp\n'}
+[32.694878] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/aruco_detection__builder.hpp\n'}
+[32.700628] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/aruco_detection__type_support.hpp\n'}
+[32.706244] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/marker_pose__traits.hpp\n'}
+[32.714398] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/board_pose__builder.hpp\n'}
+[32.716235] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/marker_pose__builder.hpp\n'}
+[32.717165] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/marker_pose__struct.hpp\n'}
+[32.717927] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/board_pose__struct.hpp\n'}
+[32.718283] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/aruco_detection__traits.hpp\n'}
+[32.719027] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/aruco_detection__struct.hpp\n'}
+[32.719350] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/marker_pose__type_support.hpp\n'}
+[32.719766] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/aruco_detection.hpp\n'}
+[32.720094] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[32.720410] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/board_pose.hpp\n'}
+[32.720729] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/marker_pose.hpp\n'}
+[32.721317] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs\n'}
+[32.721905] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg\n'}
+[32.722236] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail\n'}
+[32.722580] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/aruco_detection__rosidl_typesupport_introspection_cpp.hpp\n'}
+[32.722823] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/marker_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[32.722974] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/board_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[32.723318] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/aruco_detection__type_support.cpp\n'}
+[32.723653] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/marker_pose__type_support.cpp\n'}
+[32.723974] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/msg/detail/board_pose__type_support.cpp\n'}
+[32.724292] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[32.725789] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[32.726295] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_cpp.so\n'}
+[32.731791] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[32.732964] (-) TimerEvent: {}
+[32.733462] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/pythonpath.sh\n'}
+[32.734035] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/pythonpath.dsv\n'}
+[32.734363] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/__init__.py\n'}
+[32.833252] (-) TimerEvent: {}
+[32.881014] (aruco_opencv_msgs) StdoutLine: {'line': b"Compiling '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/__init__.py'...\n"}
+[32.888065] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/msg\n'}
+[32.890659] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/msg/_marker_pose.py\n'}
+[32.892761] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/msg/_aruco_detection.py\n'}
+[32.894307] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/msg/_board_pose_s.c\n'}
+[32.895923] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/msg/__init__.py\n'}
+[32.896736] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/msg/_aruco_detection_s.c\n'}
+[32.897084] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/msg/_board_pose.py\n'}
+[32.897541] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/msg/_marker_pose_s.c\n'}
+[32.898068] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[32.903338] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[32.904598] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[32.912336] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[32.912787] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[32.923502] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[32.923911] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__python.so\n'}
+[32.926571] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__python.so" to ""\n'}
+[32.927370] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/ArucoDetection.idl\n'}
+[32.928462] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/BoardPose.idl\n'}
+[32.929398] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/MarkerPose.idl\n'}
+[32.930464] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/ArucoDetection.msg\n'}
+[32.931409] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/BoardPose.msg\n'}
+[32.932621] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/MarkerPose.msg\n'}
+[32.933835] (-) TimerEvent: {}
+[32.934864] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/ament_index/resource_index/package_run_dependencies/aruco_opencv_msgs\n'}
+[32.935629] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/ament_index/resource_index/parent_prefix_path/aruco_opencv_msgs\n'}
+[32.935963] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/ament_prefix_path.sh\n'}
+[32.936287] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/ament_prefix_path.dsv\n'}
+[32.936653] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/path.sh\n'}
+[32.936935] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/path.dsv\n'}
+[32.937448] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/local_setup.bash\n'}
+[32.937712] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/local_setup.sh\n'}
+[32.938038] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/local_setup.zsh\n'}
+[32.938315] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/local_setup.dsv\n'}
+[32.938719] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.dsv\n'}
+[32.940438] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/ament_index/resource_index/packages/aruco_opencv_msgs\n'}
+[32.941185] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_generator_cExport.cmake\n'}
+[32.942279] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[32.943606] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[32.944094] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[32.945131] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_cExport.cmake\n'}
+[32.945456] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[32.946937] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_generator_cppExport.cmake\n'}
+[32.948279] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[32.949298] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[32.949820] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[32.950147] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[32.950468] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[32.950786] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[32.959022] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[32.959572] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[32.963993] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[32.964584] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[32.965314] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[32.965715] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgsConfig.cmake\n'}
+[32.968495] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgsConfig-version.cmake\n'}
+[32.969240] (aruco_opencv_msgs) StdoutLine: {'line': b'-- Installing: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.xml\n'}
+[32.969707] (aruco_opencv_msgs) CommandEnded: {'returncode': 0}
+[33.037200] (-) TimerEvent: {}
+[33.141466] (-) TimerEvent: {}
+[33.242821] (-) TimerEvent: {}
+[33.345350] (-) TimerEvent: {}
+[33.448997] (-) TimerEvent: {}
+[33.550548] (-) TimerEvent: {}
+[33.656090] (-) TimerEvent: {}
+[33.759846] (-) TimerEvent: {}
+[33.864820] (-) TimerEvent: {}
+[33.966624] (-) TimerEvent: {}
+[34.068202] (-) TimerEvent: {}
+[34.169923] (-) TimerEvent: {}
+[34.271795] (-) TimerEvent: {}
+[34.374744] (-) TimerEvent: {}
+[34.478591] (-) TimerEvent: {}
+[34.589961] (-) TimerEvent: {}
+[34.696486] (-) TimerEvent: {}
+[34.800361] (-) TimerEvent: {}
+[34.903612] (-) TimerEvent: {}
+[35.004902] (-) TimerEvent: {}
+[35.107639] (-) TimerEvent: {}
+[35.133436] (aruco_opencv_msgs) JobEnded: {'identifier': 'aruco_opencv_msgs', 'rc': 0}
+[35.149809] (aruco_opencv) JobStarted: {'identifier': 'aruco_opencv'}
+[35.210584] (-) TimerEvent: {}
+[35.324928] (-) TimerEvent: {}
+[35.427537] (-) TimerEvent: {}
+[35.524281] (aruco_opencv) JobProgress: {'identifier': 'aruco_opencv', 'progress': 'cmake'}
+[35.533056] (aruco_opencv) Command: {'cmd': ['/usr/bin/cmake', '/home/april/mobilerobotics_ws/src/ros_aruco_opencv/aruco_opencv', '-DCMAKE_INSTALL_PREFIX=/home/april/mobilerobotics_ws/install/aruco_opencv'], 'cwd': '/home/april/mobilerobotics_ws/build/aruco_opencv', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'april'), ('SSH_AGENT_PID', '1643'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/april'), ('OLDPWD', '/home/april/mobilerobotics_ws/src/ros_aruco_opencv/aruco_opencv_msgs'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1455'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'april'), ('JOURNAL_STREAM', '8:50635'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'april'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/april/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1678,unix/ubuntu:/tmp/.ICE-unix/1678'), ('INVOCATION_ID', '4e3143ecea924786a233a5377f8af429'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/013c7732_e43f_4a4b_ad26_3c0307417117'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/april/mobilerobotics_ws/build/aruco_opencv'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs:/opt/ros/foxy')]), 'shell': False}
+[35.549934] (-) TimerEvent: {}
+[35.656357] (-) TimerEvent: {}
+[35.758627] (-) TimerEvent: {}
+[35.863486] (-) TimerEvent: {}
+[35.905747] (aruco_opencv) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[35.964523] (-) TimerEvent: {}
+[36.066117] (-) TimerEvent: {}
+[36.167277] (-) TimerEvent: {}
+[36.206300] (aruco_opencv) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[36.226017] (aruco_opencv) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[36.267539] (-) TimerEvent: {}
+[36.368468] (-) TimerEvent: {}
+[36.474433] (-) TimerEvent: {}
+[36.578098] (-) TimerEvent: {}
+[36.667220] (aruco_opencv) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[36.671871] (aruco_opencv) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[36.678367] (-) TimerEvent: {}
+[36.779242] (-) TimerEvent: {}
+[36.880269] (-) TimerEvent: {}
+[36.981054] (-) TimerEvent: {}
+[37.076568] (aruco_opencv) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[37.081183] (-) TimerEvent: {}
+[37.090672] (aruco_opencv) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[37.091088] (aruco_opencv) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[37.091407] (aruco_opencv) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[37.181711] (-) TimerEvent: {}
+[37.282577] (-) TimerEvent: {}
+[37.383610] (-) TimerEvent: {}
+[37.484488] (-) TimerEvent: {}
+[37.585366] (-) TimerEvent: {}
+[37.639833] (aruco_opencv) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[37.645899] (aruco_opencv) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[37.692260] (-) TimerEvent: {}
+[37.793301] (-) TimerEvent: {}
+[37.894206] (-) TimerEvent: {}
+[37.995401] (-) TimerEvent: {}
+[38.096380] (-) TimerEvent: {}
+[38.197651] (-) TimerEvent: {}
+[38.263228] (aruco_opencv) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[38.277318] (aruco_opencv) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[38.280595] (aruco_opencv) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[38.298728] (-) TimerEvent: {}
+[38.300122] (aruco_opencv) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[38.399087] (-) TimerEvent: {}
+[38.416159] (aruco_opencv) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[38.417172] (aruco_opencv) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[38.499856] (-) TimerEvent: {}
+[38.601054] (-) TimerEvent: {}
+[38.703251] (-) TimerEvent: {}
+[38.804852] (-) TimerEvent: {}
+[38.906374] (-) TimerEvent: {}
+[39.009076] (-) TimerEvent: {}
+[39.109960] (-) TimerEvent: {}
+[39.210730] (-) TimerEvent: {}
+[39.311692] (-) TimerEvent: {}
+[39.349883] (aruco_opencv) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[39.414264] (-) TimerEvent: {}
+[39.515336] (-) TimerEvent: {}
+[39.560591] (aruco_opencv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[39.583356] (aruco_opencv) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[39.615813] (-) TimerEvent: {}
+[39.717025] (-) TimerEvent: {}
+[39.818093] (-) TimerEvent: {}
+[39.923748] (-) TimerEvent: {}
+[40.024617] (-) TimerEvent: {}
+[40.125401] (-) TimerEvent: {}
+[40.184703] (aruco_opencv) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[40.226072] (-) TimerEvent: {}
+[40.278965] (aruco_opencv) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[40.326363] (-) TimerEvent: {}
+[40.428581] (-) TimerEvent: {}
+[40.530663] (-) TimerEvent: {}
+[40.632239] (-) TimerEvent: {}
+[40.671057] (aruco_opencv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[40.732888] (-) TimerEvent: {}
+[40.837165] (-) TimerEvent: {}
+[40.938334] (-) TimerEvent: {}
+[41.032922] (aruco_opencv) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[41.038926] (-) TimerEvent: {}
+[41.060810] (aruco_opencv) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[41.076732] (aruco_opencv) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[41.142528] (-) TimerEvent: {}
+[41.243428] (-) TimerEvent: {}
+[41.344166] (-) TimerEvent: {}
+[41.444955] (-) TimerEvent: {}
+[41.546187] (-) TimerEvent: {}
+[41.587751] (aruco_opencv) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[41.590032] (aruco_opencv) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[41.646677] (-) TimerEvent: {}
+[41.754069] (-) TimerEvent: {}
+[41.855283] (-) TimerEvent: {}
+[41.956012] (-) TimerEvent: {}
+[42.056804] (-) TimerEvent: {}
+[42.120001] (aruco_opencv) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[42.120713] (aruco_opencv) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[42.157284] (-) TimerEvent: {}
+[42.259617] (-) TimerEvent: {}
+[42.361237] (-) TimerEvent: {}
+[42.463478] (-) TimerEvent: {}
+[42.526490] (aruco_opencv) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[42.528720] (aruco_opencv) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[42.564267] (-) TimerEvent: {}
+[42.666701] (-) TimerEvent: {}
+[42.767798] (-) TimerEvent: {}
+[42.868907] (-) TimerEvent: {}
+[42.970585] (-) TimerEvent: {}
+[43.073932] (-) TimerEvent: {}
+[43.078953] (aruco_opencv) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[43.087199] (aruco_opencv) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[43.174331] (-) TimerEvent: {}
+[43.274888] (-) TimerEvent: {}
+[43.375491] (-) TimerEvent: {}
+[43.476164] (-) TimerEvent: {}
+[43.576687] (-) TimerEvent: {}
+[43.603031] (aruco_opencv) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[43.677406] (-) TimerEvent: {}
+[43.778737] (-) TimerEvent: {}
+[43.842861] (aruco_opencv) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 2.4.3 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)\n'}
+[43.879450] (-) TimerEvent: {}
+[43.975374] (aruco_opencv) StdoutLine: {'line': b'-- Found aruco_opencv_msgs: 1.1.1 (/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake)\n'}
+[43.980140] (-) TimerEvent: {}
+[44.081193] (-) TimerEvent: {}
+[44.182368] (-) TimerEvent: {}
+[44.283384] (-) TimerEvent: {}
+[44.292646] (aruco_opencv) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[44.383861] (-) TimerEvent: {}
+[44.484628] (-) TimerEvent: {}
+[44.585641] (-) TimerEvent: {}
+[44.658007] (aruco_opencv) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[44.685927] (-) TimerEvent: {}
+[44.787469] (-) TimerEvent: {}
+[44.888408] (-) TimerEvent: {}
+[44.991431] (-) TimerEvent: {}
+[45.092620] (-) TimerEvent: {}
+[45.193467] (-) TimerEvent: {}
+[45.294377] (-) TimerEvent: {}
+[45.396112] (-) TimerEvent: {}
+[45.496881] (-) TimerEvent: {}
+[45.595227] (aruco_opencv) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)\n'}
+[45.597697] (-) TimerEvent: {}
+[45.628343] (aruco_opencv) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[45.635064] (aruco_opencv) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[45.695296] (aruco_opencv) StdoutLine: {'line': b'-- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)\n'}
+[45.698243] (-) TimerEvent: {}
+[45.746649] (aruco_opencv) StdoutLine: {'line': b'-- Found OpenCV: /usr (found suitable version "4.2.0", minimum required is "4.2.0") found components: aruco \n'}
+[45.784298] (aruco_opencv) StderrLine: {'line': b'CMake Error at CMakeLists.txt:14 (find_package):\n'}
+[45.784894] (aruco_opencv) StderrLine: {'line': b'  By not providing "Findyaml-cpp.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[45.785232] (aruco_opencv) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "yaml-cpp",\n'}
+[45.790403] (aruco_opencv) StderrLine: {'line': b'  but CMake did not find one.\n'}
+[45.790754] (aruco_opencv) StderrLine: {'line': b'\n'}
+[45.791138] (aruco_opencv) StderrLine: {'line': b'  Could not find a package configuration file provided by "yaml-cpp" with any\n'}
+[45.791460] (aruco_opencv) StderrLine: {'line': b'  of the following names:\n'}
+[45.791776] (aruco_opencv) StderrLine: {'line': b'\n'}
+[45.792093] (aruco_opencv) StderrLine: {'line': b'    yaml-cppConfig.cmake\n'}
+[45.792407] (aruco_opencv) StderrLine: {'line': b'    yaml-cpp-config.cmake\n'}
+[45.792740] (aruco_opencv) StderrLine: {'line': b'\n'}
+[45.793056] (aruco_opencv) StderrLine: {'line': b'  Add the installation prefix of "yaml-cpp" to CMAKE_PREFIX_PATH or set\n'}
+[45.793374] (aruco_opencv) StderrLine: {'line': b'  "yaml-cpp_DIR" to a directory containing one of the above files.  If\n'}
+[45.793784] (aruco_opencv) StderrLine: {'line': b'  "yaml-cpp" provides a separate development package or SDK, be sure it has\n'}
+[45.794106] (aruco_opencv) StderrLine: {'line': b'  been installed.\n'}
+[45.794419] (aruco_opencv) StderrLine: {'line': b'\n'}
+[45.794733] (aruco_opencv) StderrLine: {'line': b'\n'}
+[45.799003] (-) TimerEvent: {}
+[45.808847] (aruco_opencv) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[45.809261] (aruco_opencv) StdoutLine: {'line': b'See also "/home/april/mobilerobotics_ws/build/aruco_opencv/CMakeFiles/CMakeOutput.log".\n'}
+[45.809788] (aruco_opencv) StdoutLine: {'line': b'See also "/home/april/mobilerobotics_ws/build/aruco_opencv/CMakeFiles/CMakeError.log".\n'}
+[45.834603] (aruco_opencv) CommandEnded: {'returncode': 1}
+[45.905951] (-) TimerEvent: {}
+[46.009329] (-) TimerEvent: {}
+[46.114065] (-) TimerEvent: {}
+[46.186489] (aruco_opencv) JobEnded: {'identifier': 'aruco_opencv', 'rc': 1}
+[46.191626] (-) EventReactorShutdown: {}

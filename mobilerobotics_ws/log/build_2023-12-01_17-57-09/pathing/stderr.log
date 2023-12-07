@@ -1,0 +1,5 @@
+  File "/home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing/better_soccer.py", line 258
+    for stop range(len(self.path) - 1):
+             ^
+SyntaxError: invalid syntax
+

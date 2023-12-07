@@ -1,0 +1,24 @@
+[9.920s] Invoking command in '/home/april/mobilerobotics_ws/src/pathing': PYTHONPATH=/home/april/mobilerobotics_ws/build/pathing/prefix_override:/home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pathing build --build-base /home/april/mobilerobotics_ws/build/pathing/build install --record /home/april/mobilerobotics_ws/build/pathing/install.log --single-version-externally-managed
+[11.853s] running egg_info
+[11.872s] writing ../../build/pathing/pathing.egg-info/PKG-INFO
+[11.875s] writing dependency_links to ../../build/pathing/pathing.egg-info/dependency_links.txt
+[11.885s] writing entry points to ../../build/pathing/pathing.egg-info/entry_points.txt
+[11.886s] writing requirements to ../../build/pathing/pathing.egg-info/requires.txt
+[11.902s] writing top-level names to ../../build/pathing/pathing.egg-info/top_level.txt
+[12.076s] reading manifest file '../../build/pathing/pathing.egg-info/SOURCES.txt'
+[12.084s] writing manifest file '../../build/pathing/pathing.egg-info/SOURCES.txt'
+[12.087s] running build
+[12.088s] running build_py
+[12.089s] copying pathing/better_soccer.py -> /home/april/mobilerobotics_ws/build/pathing/build/lib/pathing
+[12.094s] running install
+[12.102s] running install_lib
+[12.107s] copying /home/april/mobilerobotics_ws/build/pathing/build/lib/pathing/better_soccer.py -> /home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing
+[12.113s] byte-compiling /home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing/better_soccer.py to better_soccer.cpython-38.pyc
+[12.147s] running install_data
+[12.151s] running install_egg_info
+[12.167s] removing '/home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing-0.0.0-py3.8.egg-info' (and everything under it)
+[12.169s] Copying ../../build/pathing/pathing.egg-info to /home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing-0.0.0-py3.8.egg-info
+[12.182s] running install_scripts
+[12.254s] Installing planner script to /home/april/mobilerobotics_ws/install/pathing/lib/pathing
+[12.257s] writing list of installed files to '/home/april/mobilerobotics_ws/build/pathing/install.log'
+[12.368s] Invoked command in '/home/april/mobilerobotics_ws/src/pathing' returned '0': PYTHONPATH=/home/april/mobilerobotics_ws/build/pathing/prefix_override:/home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pathing build --build-base /home/april/mobilerobotics_ws/build/pathing/build install --record /home/april/mobilerobotics_ws/build/pathing/install.log --single-version-externally-managed

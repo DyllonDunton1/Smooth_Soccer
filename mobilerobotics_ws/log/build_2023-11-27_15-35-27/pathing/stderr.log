@@ -1,0 +1,5 @@
+  File "/home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing/better_soccer.py", line 77
+    self.min_x = min(self.root.x, *[o.x for o in self.obs], ball.x, goal.reference.x goal.marker.x)
+                                                                                     ^
+SyntaxError: invalid syntax
+

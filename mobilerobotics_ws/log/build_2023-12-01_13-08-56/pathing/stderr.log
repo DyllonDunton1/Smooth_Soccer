@@ -1,0 +1,5 @@
+  File "/home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing/better_soccer.py", line 236
+    if (min(dists) < o.obs_radius or self.new_walkable == len(self.final_path):
+                                                                              ^
+SyntaxError: invalid syntax
+

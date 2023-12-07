@@ -1,0 +1,5 @@
+  File "/home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing/better_soccer.py", line 100
+    obstacles = [self.obs*, self.ball, self.reference, self.marker]
+                          ^
+SyntaxError: invalid syntax
+

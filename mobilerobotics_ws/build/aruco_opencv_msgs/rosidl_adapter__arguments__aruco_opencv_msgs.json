@@ -1,0 +1,8 @@
+{
+  "package_name": "aruco_opencv_msgs",
+  "non_idl_tuples": [
+    "/home/april/mobilerobotics_ws/src/ros_aruco_opencv/aruco_opencv_msgs:msg/ArucoDetection.msg",
+    "/home/april/mobilerobotics_ws/src/ros_aruco_opencv/aruco_opencv_msgs:msg/BoardPose.msg",
+    "/home/april/mobilerobotics_ws/src/ros_aruco_opencv/aruco_opencv_msgs:msg/MarkerPose.msg"
+  ]
+}

@@ -1,0 +1,230 @@
+[6.473s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[6.474s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f118aad9040>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f118aad9040>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f118aa62610>)
+[6.818s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[6.818s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[6.818s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[6.819s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[6.819s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[6.819s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[6.819s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/april/mobilerobotics_ws'
+[6.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[6.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[6.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[6.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[6.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[6.821s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[6.821s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[6.821s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[6.821s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[6.884s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[6.885s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[6.885s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[6.885s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[6.885s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[6.886s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[6.886s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[6.886s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[6.887s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[6.887s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[6.887s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[6.888s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[6.888s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[6.888s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[6.889s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[6.889s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[6.889s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[6.890s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[6.890s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[6.890s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[6.890s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[6.890s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[6.890s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[6.891s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[6.891s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[6.891s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[6.891s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[6.891s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[6.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/pathing) by extensions ['ignore', 'ignore_ament_install']
+[6.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/pathing) by extension 'ignore'
+[6.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/pathing) by extension 'ignore_ament_install'
+[6.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/pathing) by extensions ['colcon_pkg']
+[6.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/pathing) by extension 'colcon_pkg'
+[6.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/pathing) by extensions ['colcon_meta']
+[6.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/pathing) by extension 'colcon_meta'
+[6.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/pathing) by extensions ['ros']
+[6.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/pathing) by extension 'ros'
+[6.900s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pathing' with type 'ros.ament_python' and name 'pathing'
+[6.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extensions ['ignore', 'ignore_ament_install']
+[6.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extension 'ignore'
+[6.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extension 'ignore_ament_install'
+[6.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extensions ['colcon_pkg']
+[6.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extension 'colcon_pkg'
+[6.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extensions ['colcon_meta']
+[6.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extension 'colcon_meta'
+[6.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extensions ['ros']
+[6.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extension 'ros'
+[6.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extensions ['cmake', 'python']
+[6.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extension 'cmake'
+[6.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extension 'python'
+[6.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extensions ['python_setup_py']
+[6.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extension 'python_setup_py'
+[6.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extensions ['ignore', 'ignore_ament_install']
+[6.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extension 'ignore'
+[6.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extension 'ignore_ament_install'
+[6.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extensions ['colcon_pkg']
+[6.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extension 'colcon_pkg'
+[6.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extensions ['colcon_meta']
+[6.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extension 'colcon_meta'
+[6.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extensions ['ros']
+[6.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extension 'ros'
+[6.909s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_aruco_opencv/aruco_opencv_msgs' with type 'ros.ament_cmake' and name 'aruco_opencv_msgs'
+[6.909s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[6.909s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[6.909s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[6.909s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[6.909s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[7.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[7.374s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[7.598s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/april/mobilerobotics_ws/install
+[7.753s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 258 installed packages in /opt/ros/foxy
+[7.756s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[8.065s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'aruco_opencv_msgs' is in: /home/april/mobilerobotics_ws/install/aruco_opencv_msgs
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding aruco_opencv_msgs
+
+This may be promoted to an error in a future release of colcon-override-check.
+[8.175s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'cmake_args' from command line to 'None'
+[8.175s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'cmake_target' from command line to 'None'
+[8.175s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.175s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[8.176s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[8.176s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[8.176s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[8.176s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[8.176s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.176s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_opencv_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/april/mobilerobotics_ws/build/aruco_opencv_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs', 'merge_install': False, 'path': '/home/april/mobilerobotics_ws/src/ros_aruco_opencv/aruco_opencv_msgs', 'symlink_install': False, 'test_result_base': None}
+[8.248s] Level 5:colcon.colcon_core.verb:set package 'pathing' build argument 'cmake_args' from command line to 'None'
+[8.249s] Level 5:colcon.colcon_core.verb:set package 'pathing' build argument 'cmake_target' from command line to 'None'
+[8.249s] Level 5:colcon.colcon_core.verb:set package 'pathing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.249s] Level 5:colcon.colcon_core.verb:set package 'pathing' build argument 'cmake_clean_cache' from command line to 'False'
+[8.249s] Level 5:colcon.colcon_core.verb:set package 'pathing' build argument 'cmake_clean_first' from command line to 'False'
+[8.249s] Level 5:colcon.colcon_core.verb:set package 'pathing' build argument 'cmake_force_configure' from command line to 'False'
+[8.249s] Level 5:colcon.colcon_core.verb:set package 'pathing' build argument 'ament_cmake_args' from command line to 'None'
+[8.249s] Level 5:colcon.colcon_core.verb:set package 'pathing' build argument 'catkin_cmake_args' from command line to 'None'
+[8.249s] Level 5:colcon.colcon_core.verb:set package 'pathing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.249s] DEBUG:colcon.colcon_core.verb:Building package 'pathing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/april/mobilerobotics_ws/build/pathing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/april/mobilerobotics_ws/install/pathing', 'merge_install': False, 'path': '/home/april/mobilerobotics_ws/src/pathing', 'symlink_install': False, 'test_result_base': None}
+[8.308s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[8.396s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[8.397s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/april/mobilerobotics_ws/src/ros_aruco_opencv/aruco_opencv_msgs' with build type 'ament_cmake'
+[8.397s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/april/mobilerobotics_ws/src/ros_aruco_opencv/aruco_opencv_msgs'
+[8.550s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[8.551s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.551s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.941s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/april/mobilerobotics_ws/src/pathing' with build type 'ament_python'
+[8.944s] Level 1:colcon.colcon_core.shell:create_environment_hook('pathing', 'ament_prefix_path')
+[9.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/mobilerobotics_ws/install/pathing/share/pathing/hook/ament_prefix_path.ps1'
+[9.067s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/april/mobilerobotics_ws/install/pathing/share/pathing/hook/ament_prefix_path.dsv'
+[9.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/mobilerobotics_ws/install/pathing/share/pathing/hook/ament_prefix_path.sh'
+[9.154s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.154s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/april/mobilerobotics_ws/build/aruco_opencv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/april/mobilerobotics_ws/install/pathing:/opt/ros/foxy /usr/bin/cmake --build /home/april/mobilerobotics_ws/build/aruco_opencv_msgs -- -j2 -l2
+[10.657s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/april/mobilerobotics_ws/src/pathing'
+[10.783s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.783s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/april/mobilerobotics_ws/build/aruco_opencv_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/april/mobilerobotics_ws/install/pathing:/opt/ros/foxy /usr/bin/cmake --build /home/april/mobilerobotics_ws/build/aruco_opencv_msgs -- -j2 -l2
+[12.123s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/april/mobilerobotics_ws/build/aruco_opencv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/april/mobilerobotics_ws/install/pathing:/opt/ros/foxy /usr/bin/cmake --install /home/april/mobilerobotics_ws/build/aruco_opencv_msgs
+[12.396s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_opencv_msgs)
+[12.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/april/mobilerobotics_ws/build/aruco_opencv_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/april/mobilerobotics_ws/install/pathing:/opt/ros/foxy /usr/bin/cmake --install /home/april/mobilerobotics_ws/build/aruco_opencv_msgs
+[12.550s] Level 1:colcon.colcon_core.environment:checking '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs' for CMake module files
+[12.554s] Level 1:colcon.colcon_core.environment:checking '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs' for CMake config files
+[12.557s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv_msgs', 'cmake_prefix_path')
+[12.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/cmake_prefix_path.ps1'
+[12.677s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/cmake_prefix_path.dsv'
+[12.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/cmake_prefix_path.sh'
+[12.682s] Level 1:colcon.colcon_core.environment:checking '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib'
+[12.683s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv_msgs', 'ld_library_path_lib')
+[12.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/ld_library_path_lib.ps1'
+[12.780s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/ld_library_path_lib.dsv'
+[12.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/ld_library_path_lib.sh'
+[12.781s] Level 1:colcon.colcon_core.environment:checking '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/bin'
+[12.781s] Level 1:colcon.colcon_core.environment:checking '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/pkgconfig/aruco_opencv_msgs.pc'
+[12.784s] Level 1:colcon.colcon_core.environment:checking '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages'
+[12.784s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv_msgs', 'pythonpath')
+[12.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/pythonpath.ps1'
+[12.862s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/pythonpath.dsv'
+[12.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/pythonpath.sh'
+[12.867s] Level 1:colcon.colcon_core.environment:checking '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/bin'
+[12.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.ps1'
+[12.928s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.dsv'
+[12.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.sh'
+[12.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.bash'
+[12.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.zsh'
+[12.946s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/colcon-core/packages/aruco_opencv_msgs)
+[13.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/april/mobilerobotics_ws/src/pathing': PYTHONPATH=/home/april/mobilerobotics_ws/build/pathing/prefix_override:/home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pathing build --build-base /home/april/mobilerobotics_ws/build/pathing/build install --record /home/april/mobilerobotics_ws/build/pathing/install.log --single-version-externally-managed
+[13.674s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_opencv_msgs)
+[13.761s] Level 1:colcon.colcon_core.environment:checking '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs' for CMake module files
+[13.762s] Level 1:colcon.colcon_core.environment:checking '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs' for CMake config files
+[13.763s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv_msgs', 'cmake_prefix_path')
+[13.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/cmake_prefix_path.ps1'
+[13.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/cmake_prefix_path.dsv'
+[13.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/cmake_prefix_path.sh'
+[13.920s] Level 1:colcon.colcon_core.environment:checking '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib'
+[13.920s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv_msgs', 'ld_library_path_lib')
+[13.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/ld_library_path_lib.ps1'
+[13.972s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/ld_library_path_lib.dsv'
+[13.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/ld_library_path_lib.sh'
+[13.974s] Level 1:colcon.colcon_core.environment:checking '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/bin'
+[13.974s] Level 1:colcon.colcon_core.environment:checking '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/pkgconfig/aruco_opencv_msgs.pc'
+[13.974s] Level 1:colcon.colcon_core.environment:checking '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages'
+[13.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv_msgs', 'pythonpath')
+[14.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/pythonpath.ps1'
+[14.049s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/pythonpath.dsv'
+[14.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/pythonpath.sh'
+[14.052s] Level 1:colcon.colcon_core.environment:checking '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/bin'
+[14.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.ps1'
+[14.155s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.dsv'
+[14.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.sh'
+[14.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.bash'
+[14.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.zsh'
+[14.162s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/april/mobilerobotics_ws/install/aruco_opencv_msgs/share/colcon-core/packages/aruco_opencv_msgs)
+[14.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/april/mobilerobotics_ws/src/pathing' returned '0': PYTHONPATH=/home/april/mobilerobotics_ws/build/pathing/prefix_override:/home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pathing build --build-base /home/april/mobilerobotics_ws/build/pathing/build install --record /home/april/mobilerobotics_ws/build/pathing/install.log --single-version-externally-managed
+[14.280s] Level 1:colcon.colcon_core.environment:checking '/home/april/mobilerobotics_ws/install/pathing' for CMake module files
+[14.282s] Level 1:colcon.colcon_core.environment:checking '/home/april/mobilerobotics_ws/install/pathing' for CMake config files
+[14.285s] Level 1:colcon.colcon_core.environment:checking '/home/april/mobilerobotics_ws/install/pathing/lib'
+[14.286s] Level 1:colcon.colcon_core.environment:checking '/home/april/mobilerobotics_ws/install/pathing/bin'
+[14.286s] Level 1:colcon.colcon_core.environment:checking '/home/april/mobilerobotics_ws/install/pathing/lib/pkgconfig/pathing.pc'
+[14.287s] Level 1:colcon.colcon_core.environment:checking '/home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages'
+[14.287s] Level 1:colcon.colcon_core.shell:create_environment_hook('pathing', 'pythonpath')
+[14.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/mobilerobotics_ws/install/pathing/share/pathing/hook/pythonpath.ps1'
+[14.394s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/april/mobilerobotics_ws/install/pathing/share/pathing/hook/pythonpath.dsv'
+[14.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/april/mobilerobotics_ws/install/pathing/share/pathing/hook/pythonpath.sh'
+[14.399s] Level 1:colcon.colcon_core.environment:checking '/home/april/mobilerobotics_ws/install/pathing/bin'
+[14.399s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pathing)
+[14.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/mobilerobotics_ws/install/pathing/share/pathing/package.ps1'
+[14.496s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/april/mobilerobotics_ws/install/pathing/share/pathing/package.dsv'
+[14.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/mobilerobotics_ws/install/pathing/share/pathing/package.sh'
+[14.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/mobilerobotics_ws/install/pathing/share/pathing/package.bash'
+[14.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/april/mobilerobotics_ws/install/pathing/share/pathing/package.zsh'
+[14.503s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/april/mobilerobotics_ws/install/pathing/share/colcon-core/packages/pathing)
+[14.505s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.506s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.506s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[14.507s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.637s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.637s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.637s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.706s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.838s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/april/mobilerobotics_ws/install/local_setup.ps1'
+[14.840s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/april/mobilerobotics_ws/install/_local_setup_util_ps1.py'
+[14.844s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/april/mobilerobotics_ws/install/setup.ps1'
+[14.959s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/april/mobilerobotics_ws/install/local_setup.sh'
+[14.960s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/april/mobilerobotics_ws/install/_local_setup_util_sh.py'
+[14.961s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/april/mobilerobotics_ws/install/setup.sh'
+[15.044s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/april/mobilerobotics_ws/install/local_setup.bash'
+[15.045s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/april/mobilerobotics_ws/install/setup.bash'
+[15.115s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/april/mobilerobotics_ws/install/local_setup.zsh'
+[15.117s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/april/mobilerobotics_ws/install/setup.zsh'

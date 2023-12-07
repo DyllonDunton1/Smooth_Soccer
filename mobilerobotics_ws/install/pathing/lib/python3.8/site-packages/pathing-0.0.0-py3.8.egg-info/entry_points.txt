@@ -1,0 +1,5 @@
+[console_scripts]
+angle = pathing.standard_angle:main
+forward = pathing.standard_movement:main
+planner = pathing.better_soccer:main
+

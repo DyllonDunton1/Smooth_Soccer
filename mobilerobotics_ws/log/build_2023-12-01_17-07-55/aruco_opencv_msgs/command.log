@@ -1,0 +1,4 @@
+Invoking command in '/home/april/mobilerobotics_ws/build/aruco_opencv_msgs': /usr/bin/cmake --build /home/april/mobilerobotics_ws/build/aruco_opencv_msgs -- -j2 -l2
+Invoked command in '/home/april/mobilerobotics_ws/build/aruco_opencv_msgs' returned '0': /usr/bin/cmake --build /home/april/mobilerobotics_ws/build/aruco_opencv_msgs -- -j2 -l2
+Invoking command in '/home/april/mobilerobotics_ws/build/aruco_opencv_msgs': /usr/bin/cmake --install /home/april/mobilerobotics_ws/build/aruco_opencv_msgs
+Invoked command in '/home/april/mobilerobotics_ws/build/aruco_opencv_msgs' returned '0': /usr/bin/cmake --install /home/april/mobilerobotics_ws/build/aruco_opencv_msgs

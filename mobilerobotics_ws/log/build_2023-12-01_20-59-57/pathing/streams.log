@@ -1,0 +1,26 @@
+[2.183s] Invoking command in '/home/april/mobilerobotics_ws/src/pathing': PYTHONPATH=/home/april/mobilerobotics_ws/build/pathing/prefix_override:/home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pathing build --build-base /home/april/mobilerobotics_ws/build/pathing/build install --record /home/april/mobilerobotics_ws/build/pathing/install.log --single-version-externally-managed
+[2.667s] running egg_info
+[2.667s] writing ../../build/pathing/pathing.egg-info/PKG-INFO
+[2.667s] writing dependency_links to ../../build/pathing/pathing.egg-info/dependency_links.txt
+[2.667s] writing entry points to ../../build/pathing/pathing.egg-info/entry_points.txt
+[2.667s] writing requirements to ../../build/pathing/pathing.egg-info/requires.txt
+[2.667s] writing top-level names to ../../build/pathing/pathing.egg-info/top_level.txt
+[2.694s] reading manifest file '../../build/pathing/pathing.egg-info/SOURCES.txt'
+[2.696s] writing manifest file '../../build/pathing/pathing.egg-info/SOURCES.txt'
+[2.698s] running build
+[2.699s] running build_py
+[2.699s] copying pathing/standard_angle.py -> /home/april/mobilerobotics_ws/build/pathing/build/lib/pathing
+[2.699s] running install
+[2.702s] running install_lib
+[2.704s] copying /home/april/mobilerobotics_ws/build/pathing/build/lib/pathing/standard_angle.py -> /home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing
+[2.707s] byte-compiling /home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing/standard_angle.py to standard_angle.cpython-38.pyc
+[2.710s] running install_data
+[2.711s] running install_egg_info
+[2.715s] removing '/home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing-0.0.0-py3.8.egg-info' (and everything under it)
+[2.716s] Copying ../../build/pathing/pathing.egg-info to /home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing-0.0.0-py3.8.egg-info
+[2.718s] running install_scripts
+[2.737s] Installing angle script to /home/april/mobilerobotics_ws/install/pathing/lib/pathing
+[2.737s] Installing forward script to /home/april/mobilerobotics_ws/install/pathing/lib/pathing
+[2.737s] Installing planner script to /home/april/mobilerobotics_ws/install/pathing/lib/pathing
+[2.738s] writing list of installed files to '/home/april/mobilerobotics_ws/build/pathing/install.log'
+[2.914s] Invoked command in '/home/april/mobilerobotics_ws/src/pathing' returned '0': PYTHONPATH=/home/april/mobilerobotics_ws/build/pathing/prefix_override:/home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pathing build --build-base /home/april/mobilerobotics_ws/build/pathing/build install --record /home/april/mobilerobotics_ws/build/pathing/install.log --single-version-externally-managed

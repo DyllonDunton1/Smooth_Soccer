@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/pathing/pathing.egg-info/PKG-INFO
+writing dependency_links to ../../build/pathing/pathing.egg-info/dependency_links.txt
+writing entry points to ../../build/pathing/pathing.egg-info/entry_points.txt
+writing requirements to ../../build/pathing/pathing.egg-info/requires.txt
+writing top-level names to ../../build/pathing/pathing.egg-info/top_level.txt
+reading manifest file '../../build/pathing/pathing.egg-info/SOURCES.txt'
+writing manifest file '../../build/pathing/pathing.egg-info/SOURCES.txt'
+running build
+running build_py
+copying pathing/better_soccer.py -> /home/april/mobilerobotics_ws/build/pathing/build/lib/pathing
+running install
+running install_lib
+copying /home/april/mobilerobotics_ws/build/pathing/build/lib/pathing/better_soccer.py -> /home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing
+byte-compiling /home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing/better_soccer.py to better_soccer.cpython-38.pyc
+Sorry: IndentationError: unindent does not match any outer indentation level (better_soccer.py, line 241)
+running install_data
+running install_egg_info
+removing '/home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/pathing/pathing.egg-info to /home/april/mobilerobotics_ws/install/pathing/lib/python3.8/site-packages/pathing-0.0.0-py3.8.egg-info
+running install_scripts
+Installing planner script to /home/april/mobilerobotics_ws/install/pathing/lib/pathing
+writing list of installed files to '/home/april/mobilerobotics_ws/build/pathing/install.log'
