@@ -5,7 +5,8 @@ My code is the better_soccer module inside the pathing package
 
 There are two modules that I used to standardize movement that I wrote
 
-The midterm is in there too!
-
-
+# Example of Map and Physical Layout
 ![image](https://github.com/user-attachments/assets/f2ca4f31-774a-4d78-8489-e0ff9796ca02)
+
+# Demo solving problem
+![robosoccer-demo](https://github.com/user-attachments/assets/e459ffc4-8905-4e08-a2d2-6bcd78da8941)
