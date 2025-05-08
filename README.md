@@ -6,7 +6,7 @@ My code is the better_soccer module inside the pathing package
 There are two modules that I used to standardize movement that I wrote
 
 # Example of Map and Physical Layout
-<img src="https://github.com/user-attachments/assets/f2ca4f31-774a-4d78-8489-e0ff9796ca02" width="300" height="200">
+<img src="https://github.com/user-attachments/assets/f2ca4f31-774a-4d78-8489-e0ff9796ca02" width="400" height="280">
 
 
 # Demo solving problem
